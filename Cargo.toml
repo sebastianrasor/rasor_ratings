@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2024 Sebastian Rasor <https://www.sebastianrasor.com/contact>
+# SPDX-License-Identifier: AGPL-3.0-only
+
+[package]
+name = "rasor_ratings"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.18", features = ["derive"] }
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+serde_json = "1"
+anyhow = "1.0.91"
+serde = { version = "1.0.213", features = ["derive"] }
+tabled = "0.17.0"
+indicatif = { version = "0.17.9", features = ["futures", "rayon"] }
+rayon = "1.10.0"
+futures = "0.3.31"
