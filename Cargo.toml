@@ -12,7 +12,7 @@ reqwest = { version = "0.12", features = ["json"] }
 tokio = { version = "1", features = ["full"] }
 serde_json = "1"
 anyhow = "1.0.94"
-serde = { version = "1.0.213", features = ["derive"] }
+serde = { version = "1.0.217", features = ["derive"] }
 tabled = "0.17.0"
 indicatif = { version = "0.17.9", features = ["futures", "rayon"] }
 rayon = "1.10.0"
